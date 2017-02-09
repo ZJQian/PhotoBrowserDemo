@@ -7,15 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A68AE07D86F28F229401A0E /* libPods-PhotoBrowserDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4BFB23BECA743E41E31825 /* libPods-PhotoBrowserDemo.a */; };
 		EE75A90C1E4AC98D006CC961 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE75A90B1E4AC98D006CC961 /* main.m */; };
 		EE75A90F1E4AC98D006CC961 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE75A90E1E4AC98D006CC961 /* AppDelegate.m */; };
 		EE75A9121E4AC98D006CC961 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE75A9111E4AC98D006CC961 /* ViewController.m */; };
 		EE75A9151E4AC98D006CC961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE75A9131E4AC98D006CC961 /* Main.storyboard */; };
 		EE75A9171E4AC98D006CC961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE75A9161E4AC98D006CC961 /* Assets.xcassets */; };
 		EE75A91A1E4AC98D006CC961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE75A9181E4AC98D006CC961 /* LaunchScreen.storyboard */; };
+		EE75A9231E4ACA8B006CC961 /* BasePhotoBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE75A9221E4ACA8B006CC961 /* BasePhotoBrowserController.m */; };
+		EE75A9261E4ACACD006CC961 /* WxStylePhotoBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE75A9251E4ACACD006CC961 /* WxStylePhotoBrowserController.m */; };
+		EE75A9291E4ACAF8006CC961 /* WbStylePhotoBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE75A9281E4ACAF8006CC961 /* WbStylePhotoBrowserController.m */; };
+		EE75A92C1E4ACB23006CC961 /* SimplePhotoBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE75A92B1E4ACB23006CC961 /* SimplePhotoBrowserController.m */; };
+		EE75A92F1E4ACB51006CC961 /* LoadNetPicController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE75A92E1E4ACB51006CC961 /* LoadNetPicController.m */; };
+		EE75A9321E4AEBA7006CC961 /* ImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE75A9311E4AEBA7006CC961 /* ImageCollectionViewCell.m */; };
+		EE75A93B1E4AEFEF006CC961 /* PhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = EE75A93A1E4AEFEF006CC961 /* PhotoBrowser.m */; };
+		EE75A93F1E4AFCEA006CC961 /* UIView+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = EE75A93E1E4AFCEA006CC961 /* UIView+Ext.m */; };
+		EE75A9421E4AFE69006CC961 /* ZoomingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE75A9411E4AFE69006CC961 /* ZoomingScrollView.m */; };
+		EE75A9451E4B0139006CC961 /* PhotoBrowserProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE75A9441E4B0139006CC961 /* PhotoBrowserProgressView.m */; };
+		EE75A9511E4B1148006CC961 /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE75A94A1E4B1148006CC961 /* TAAbstractDotView.m */; };
+		EE75A9521E4B1148006CC961 /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE75A94C1E4B1148006CC961 /* TAAnimatedDotView.m */; };
+		EE75A9531E4B1148006CC961 /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE75A94E1E4B1148006CC961 /* TADotView.m */; };
+		EE75A9541E4B1148006CC961 /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = EE75A9501E4B1148006CC961 /* TAPageControl.m */; };
+		EE75A9611E4B138E006CC961 /* FSActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = EE75A9571E4B138E006CC961 /* FSActionSheet.m */; };
+		EE75A9621E4B138E006CC961 /* FSActionSheetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE75A9591E4B138E006CC961 /* FSActionSheetCell.m */; };
+		EE75A9631E4B138E006CC961 /* FSActionSheetConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = EE75A95B1E4B138E006CC961 /* FSActionSheetConfig.m */; };
+		EE75A9641E4B138E006CC961 /* FSActionSheetItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EE75A95D1E4B138E006CC961 /* FSActionSheetItem.m */; };
+		EE75A9651E4B138E006CC961 /* FSActionSheet_cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE75A95F1E4B138E006CC961 /* FSActionSheet_cancel@2x.png */; };
+		EE75A9661E4B138E006CC961 /* FSActionSheet_cancel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE75A9601E4B138E006CC961 /* FSActionSheet_cancel@3x.png */; };
+		EE75A9691E4B19CE006CC961 /* UIImage+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = EE75A9681E4B19CE006CC961 /* UIImage+Ext.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F59C9D24F8FEB0B0FC0175C /* Pods-PhotoBrowserDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoBrowserDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoBrowserDemo/Pods-PhotoBrowserDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6089FA43DAAABAE26782F69A /* Pods-PhotoBrowserDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoBrowserDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoBrowserDemo/Pods-PhotoBrowserDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7B4BFB23BECA743E41E31825 /* libPods-PhotoBrowserDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PhotoBrowserDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE75A9071E4AC98D006CC961 /* PhotoBrowserDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoBrowserDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE75A90B1E4AC98D006CC961 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE75A90D1E4AC98D006CC961 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +51,47 @@
 		EE75A9161E4AC98D006CC961 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE75A9191E4AC98D006CC961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE75A91B1E4AC98D006CC961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE75A9211E4ACA8B006CC961 /* BasePhotoBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePhotoBrowserController.h; sourceTree = "<group>"; };
+		EE75A9221E4ACA8B006CC961 /* BasePhotoBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePhotoBrowserController.m; sourceTree = "<group>"; };
+		EE75A9241E4ACACD006CC961 /* WxStylePhotoBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WxStylePhotoBrowserController.h; sourceTree = "<group>"; };
+		EE75A9251E4ACACD006CC961 /* WxStylePhotoBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WxStylePhotoBrowserController.m; sourceTree = "<group>"; };
+		EE75A9271E4ACAF8006CC961 /* WbStylePhotoBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WbStylePhotoBrowserController.h; sourceTree = "<group>"; };
+		EE75A9281E4ACAF8006CC961 /* WbStylePhotoBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WbStylePhotoBrowserController.m; sourceTree = "<group>"; };
+		EE75A92A1E4ACB23006CC961 /* SimplePhotoBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePhotoBrowserController.h; sourceTree = "<group>"; };
+		EE75A92B1E4ACB23006CC961 /* SimplePhotoBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePhotoBrowserController.m; sourceTree = "<group>"; };
+		EE75A92D1E4ACB51006CC961 /* LoadNetPicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadNetPicController.h; sourceTree = "<group>"; };
+		EE75A92E1E4ACB51006CC961 /* LoadNetPicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadNetPicController.m; sourceTree = "<group>"; };
+		EE75A9301E4AEBA7006CC961 /* ImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCollectionViewCell.h; sourceTree = "<group>"; };
+		EE75A9311E4AEBA7006CC961 /* ImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCollectionViewCell.m; sourceTree = "<group>"; };
+		EE75A9391E4AEFEF006CC961 /* PhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoBrowser.h; sourceTree = "<group>"; };
+		EE75A93A1E4AEFEF006CC961 /* PhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoBrowser.m; sourceTree = "<group>"; };
+		EE75A93C1E4AFC8F006CC961 /* PhotoBrowserConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoBrowserConfig.h; sourceTree = "<group>"; };
+		EE75A93D1E4AFCEA006CC961 /* UIView+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Ext.h"; sourceTree = "<group>"; };
+		EE75A93E1E4AFCEA006CC961 /* UIView+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Ext.m"; sourceTree = "<group>"; };
+		EE75A9401E4AFE69006CC961 /* ZoomingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomingScrollView.h; sourceTree = "<group>"; };
+		EE75A9411E4AFE69006CC961 /* ZoomingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomingScrollView.m; sourceTree = "<group>"; };
+		EE75A9431E4B0139006CC961 /* PhotoBrowserProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoBrowserProgressView.h; sourceTree = "<group>"; };
+		EE75A9441E4B0139006CC961 /* PhotoBrowserProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoBrowserProgressView.m; sourceTree = "<group>"; };
+		EE75A9491E4B1148006CC961 /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
+		EE75A94A1E4B1148006CC961 /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
+		EE75A94B1E4B1148006CC961 /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
+		EE75A94C1E4B1148006CC961 /* TAAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAnimatedDotView.m; sourceTree = "<group>"; };
+		EE75A94D1E4B1148006CC961 /* TADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADotView.h; sourceTree = "<group>"; };
+		EE75A94E1E4B1148006CC961 /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
+		EE75A94F1E4B1148006CC961 /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
+		EE75A9501E4B1148006CC961 /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
+		EE75A9561E4B138E006CC961 /* FSActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSActionSheet.h; sourceTree = "<group>"; };
+		EE75A9571E4B138E006CC961 /* FSActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSActionSheet.m; sourceTree = "<group>"; };
+		EE75A9581E4B138E006CC961 /* FSActionSheetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSActionSheetCell.h; sourceTree = "<group>"; };
+		EE75A9591E4B138E006CC961 /* FSActionSheetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSActionSheetCell.m; sourceTree = "<group>"; };
+		EE75A95A1E4B138E006CC961 /* FSActionSheetConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSActionSheetConfig.h; sourceTree = "<group>"; };
+		EE75A95B1E4B138E006CC961 /* FSActionSheetConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSActionSheetConfig.m; sourceTree = "<group>"; };
+		EE75A95C1E4B138E006CC961 /* FSActionSheetItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSActionSheetItem.h; sourceTree = "<group>"; };
+		EE75A95D1E4B138E006CC961 /* FSActionSheetItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSActionSheetItem.m; sourceTree = "<group>"; };
+		EE75A95F1E4B138E006CC961 /* FSActionSheet_cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FSActionSheet_cancel@2x.png"; sourceTree = "<group>"; };
+		EE75A9601E4B138E006CC961 /* FSActionSheet_cancel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FSActionSheet_cancel@3x.png"; sourceTree = "<group>"; };
+		EE75A9671E4B19CE006CC961 /* UIImage+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Ext.h"; sourceTree = "<group>"; };
+		EE75A9681E4B19CE006CC961 /* UIImage+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Ext.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +99,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A68AE07D86F28F229401A0E /* libPods-PhotoBrowserDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F4547E3B8148D92C9025C63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6089FA43DAAABAE26782F69A /* Pods-PhotoBrowserDemo.debug.xcconfig */,
+				4F59C9D24F8FEB0B0FC0175C /* Pods-PhotoBrowserDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B8906A7EFC31EB9A17830020 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B4BFB23BECA743E41E31825 /* libPods-PhotoBrowserDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EE75A8FE1E4AC98D006CC961 = {
 			isa = PBXGroup;
 			children = (
 				EE75A9091E4AC98D006CC961 /* PhotoBrowserDemo */,
 				EE75A9081E4AC98D006CC961 /* Products */,
+				4F4547E3B8148D92C9025C63 /* Pods */,
+				B8906A7EFC31EB9A17830020 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +148,9 @@
 				EE75A90E1E4AC98D006CC961 /* AppDelegate.m */,
 				EE75A9101E4AC98D006CC961 /* ViewController.h */,
 				EE75A9111E4AC98D006CC961 /* ViewController.m */,
+				EE75A9471E4B1104006CC961 /* Vender */,
+				EE75A9461E4B10D8006CC961 /* PhotoBrowser */,
+				EE75A9331E4AEF2C006CC961 /* Classes */,
 				EE75A9131E4AC98D006CC961 /* Main.storyboard */,
 				EE75A9161E4AC98D006CC961 /* Assets.xcassets */,
 				EE75A9181E4AC98D006CC961 /* LaunchScreen.storyboard */,
@@ -79,6 +168,132 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		EE75A9331E4AEF2C006CC961 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EE75A9341E4AEF48006CC961 /* WxStyle */,
+				EE75A9351E4AEF57006CC961 /* WbStyle */,
+				EE75A9361E4AEF62006CC961 /* SimpleStyle */,
+				EE75A9371E4AEFA1006CC961 /* LoadNetPic */,
+				EE75A9381E4AEFAB006CC961 /* BaseController */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		EE75A9341E4AEF48006CC961 /* WxStyle */ = {
+			isa = PBXGroup;
+			children = (
+				EE75A9241E4ACACD006CC961 /* WxStylePhotoBrowserController.h */,
+				EE75A9251E4ACACD006CC961 /* WxStylePhotoBrowserController.m */,
+			);
+			name = WxStyle;
+			sourceTree = "<group>";
+		};
+		EE75A9351E4AEF57006CC961 /* WbStyle */ = {
+			isa = PBXGroup;
+			children = (
+				EE75A9271E4ACAF8006CC961 /* WbStylePhotoBrowserController.h */,
+				EE75A9281E4ACAF8006CC961 /* WbStylePhotoBrowserController.m */,
+			);
+			name = WbStyle;
+			sourceTree = "<group>";
+		};
+		EE75A9361E4AEF62006CC961 /* SimpleStyle */ = {
+			isa = PBXGroup;
+			children = (
+				EE75A92A1E4ACB23006CC961 /* SimplePhotoBrowserController.h */,
+				EE75A92B1E4ACB23006CC961 /* SimplePhotoBrowserController.m */,
+			);
+			name = SimpleStyle;
+			sourceTree = "<group>";
+		};
+		EE75A9371E4AEFA1006CC961 /* LoadNetPic */ = {
+			isa = PBXGroup;
+			children = (
+				EE75A92D1E4ACB51006CC961 /* LoadNetPicController.h */,
+				EE75A92E1E4ACB51006CC961 /* LoadNetPicController.m */,
+			);
+			name = LoadNetPic;
+			sourceTree = "<group>";
+		};
+		EE75A9381E4AEFAB006CC961 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				EE75A9211E4ACA8B006CC961 /* BasePhotoBrowserController.h */,
+				EE75A9221E4ACA8B006CC961 /* BasePhotoBrowserController.m */,
+				EE75A9301E4AEBA7006CC961 /* ImageCollectionViewCell.h */,
+				EE75A9311E4AEBA7006CC961 /* ImageCollectionViewCell.m */,
+			);
+			name = BaseController;
+			sourceTree = "<group>";
+		};
+		EE75A9461E4B10D8006CC961 /* PhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				EE75A9391E4AEFEF006CC961 /* PhotoBrowser.h */,
+				EE75A93A1E4AEFEF006CC961 /* PhotoBrowser.m */,
+				EE75A9401E4AFE69006CC961 /* ZoomingScrollView.h */,
+				EE75A9411E4AFE69006CC961 /* ZoomingScrollView.m */,
+				EE75A9431E4B0139006CC961 /* PhotoBrowserProgressView.h */,
+				EE75A9441E4B0139006CC961 /* PhotoBrowserProgressView.m */,
+				EE75A93C1E4AFC8F006CC961 /* PhotoBrowserConfig.h */,
+				EE75A93D1E4AFCEA006CC961 /* UIView+Ext.h */,
+				EE75A93E1E4AFCEA006CC961 /* UIView+Ext.m */,
+				EE75A9671E4B19CE006CC961 /* UIImage+Ext.h */,
+				EE75A9681E4B19CE006CC961 /* UIImage+Ext.m */,
+			);
+			name = PhotoBrowser;
+			sourceTree = "<group>";
+		};
+		EE75A9471E4B1104006CC961 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				EE75A9551E4B136F006CC961 /* FSActionSheet */,
+				EE75A9481E4B1117006CC961 /* TAPageControl */,
+			);
+			name = Vender;
+			sourceTree = "<group>";
+		};
+		EE75A9481E4B1117006CC961 /* TAPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				EE75A9491E4B1148006CC961 /* TAAbstractDotView.h */,
+				EE75A94A1E4B1148006CC961 /* TAAbstractDotView.m */,
+				EE75A94B1E4B1148006CC961 /* TAAnimatedDotView.h */,
+				EE75A94C1E4B1148006CC961 /* TAAnimatedDotView.m */,
+				EE75A94D1E4B1148006CC961 /* TADotView.h */,
+				EE75A94E1E4B1148006CC961 /* TADotView.m */,
+				EE75A94F1E4B1148006CC961 /* TAPageControl.h */,
+				EE75A9501E4B1148006CC961 /* TAPageControl.m */,
+			);
+			name = TAPageControl;
+			sourceTree = "<group>";
+		};
+		EE75A9551E4B136F006CC961 /* FSActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				EE75A9561E4B138E006CC961 /* FSActionSheet.h */,
+				EE75A9571E4B138E006CC961 /* FSActionSheet.m */,
+				EE75A9581E4B138E006CC961 /* FSActionSheetCell.h */,
+				EE75A9591E4B138E006CC961 /* FSActionSheetCell.m */,
+				EE75A95A1E4B138E006CC961 /* FSActionSheetConfig.h */,
+				EE75A95B1E4B138E006CC961 /* FSActionSheetConfig.m */,
+				EE75A95C1E4B138E006CC961 /* FSActionSheetItem.h */,
+				EE75A95D1E4B138E006CC961 /* FSActionSheetItem.m */,
+				EE75A95E1E4B138E006CC961 /* FSActionSheetResources */,
+			);
+			name = FSActionSheet;
+			sourceTree = "<group>";
+		};
+		EE75A95E1E4B138E006CC961 /* FSActionSheetResources */ = {
+			isa = PBXGroup;
+			children = (
+				EE75A95F1E4B138E006CC961 /* FSActionSheet_cancel@2x.png */,
+				EE75A9601E4B138E006CC961 /* FSActionSheet_cancel@3x.png */,
+			);
+			path = FSActionSheetResources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +301,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE75A91E1E4AC98D006CC961 /* Build configuration list for PBXNativeTarget "PhotoBrowserDemo" */;
 			buildPhases = (
+				E4027A5BF8007095F92415C9 /* [CP] Check Pods Manifest.lock */,
 				EE75A9031E4AC98D006CC961 /* Sources */,
 				EE75A9041E4AC98D006CC961 /* Frameworks */,
 				EE75A9051E4AC98D006CC961 /* Resources */,
+				A460B4FAE4D94F77B903CFB9 /* [CP] Embed Pods Frameworks */,
+				82CE514AD8782E4FB8C082C8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,21 +356,90 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE75A91A1E4AC98D006CC961 /* LaunchScreen.storyboard in Resources */,
+				EE75A9651E4B138E006CC961 /* FSActionSheet_cancel@2x.png in Resources */,
 				EE75A9171E4AC98D006CC961 /* Assets.xcassets in Resources */,
 				EE75A9151E4AC98D006CC961 /* Main.storyboard in Resources */,
+				EE75A9661E4B138E006CC961 /* FSActionSheet_cancel@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82CE514AD8782E4FB8C082C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoBrowserDemo/Pods-PhotoBrowserDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A460B4FAE4D94F77B903CFB9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoBrowserDemo/Pods-PhotoBrowserDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4027A5BF8007095F92415C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EE75A9031E4AC98D006CC961 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE75A92F1E4ACB51006CC961 /* LoadNetPicController.m in Sources */,
+				EE75A9231E4ACA8B006CC961 /* BasePhotoBrowserController.m in Sources */,
+				EE75A9641E4B138E006CC961 /* FSActionSheetItem.m in Sources */,
+				EE75A9631E4B138E006CC961 /* FSActionSheetConfig.m in Sources */,
 				EE75A9121E4AC98D006CC961 /* ViewController.m in Sources */,
+				EE75A9511E4B1148006CC961 /* TAAbstractDotView.m in Sources */,
+				EE75A9261E4ACACD006CC961 /* WxStylePhotoBrowserController.m in Sources */,
+				EE75A9321E4AEBA7006CC961 /* ImageCollectionViewCell.m in Sources */,
+				EE75A92C1E4ACB23006CC961 /* SimplePhotoBrowserController.m in Sources */,
 				EE75A90F1E4AC98D006CC961 /* AppDelegate.m in Sources */,
+				EE75A9521E4B1148006CC961 /* TAAnimatedDotView.m in Sources */,
+				EE75A93F1E4AFCEA006CC961 /* UIView+Ext.m in Sources */,
+				EE75A93B1E4AEFEF006CC961 /* PhotoBrowser.m in Sources */,
+				EE75A9621E4B138E006CC961 /* FSActionSheetCell.m in Sources */,
+				EE75A9541E4B1148006CC961 /* TAPageControl.m in Sources */,
+				EE75A9691E4B19CE006CC961 /* UIImage+Ext.m in Sources */,
+				EE75A9451E4B0139006CC961 /* PhotoBrowserProgressView.m in Sources */,
+				EE75A9291E4ACAF8006CC961 /* WbStylePhotoBrowserController.m in Sources */,
+				EE75A9611E4B138E006CC961 /* FSActionSheet.m in Sources */,
+				EE75A9531E4B1148006CC961 /* TADotView.m in Sources */,
 				EE75A90C1E4AC98D006CC961 /* main.m in Sources */,
+				EE75A9421E4AFE69006CC961 /* ZoomingScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,9 +555,11 @@
 		};
 		EE75A91F1E4AC98D006CC961 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6089FA43DAAABAE26782F69A /* Pods-PhotoBrowserDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PhotoBrowserDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.PhotoBrowserDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -279,9 +568,11 @@
 		};
 		EE75A9201E4AC98D006CC961 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F59C9D24F8FEB0B0FC0175C /* Pods-PhotoBrowserDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PhotoBrowserDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.PhotoBrowserDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -307,6 +598,7 @@
 				EE75A9201E4AC98D006CC961 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
